@@ -1,0 +1,24 @@
+{
+  "name": "teste-heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linnykerxd9/ficr-add-users.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linnykerxd9/ficr-add-users/issues"
+  },
+  "homepage": "https://github.com/linnykerxd9/ficr-add-users#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
