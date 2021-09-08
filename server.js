@@ -1,12 +1,19 @@
-const express = require('express');
+const env = require('dotenv')
+const express = require('express')
 
-const app = express();
 
-const port = process.env.PORT || 3003;
+env.config()
+const app = express()
+
+
+const port = process.env.PORT || 3003
 
 
 app.get('/', (req, res) => {
-    res.send("API DE CADASTROS DE USUARIOS");
-});
+  return res.send('API de cadastro de usuários!')
+})
 
-app.listen(port);
+
+app.listen(port, () => { 
+  console.log('API iniciada na porta ', port)
+})
